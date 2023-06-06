@@ -368,7 +368,7 @@ a{
       }
       .nav-links {
         border-radius: 25px;
-        position:absolute;
+        position:fixed;
         margin: 0 auto;
         right: 0;
         top: 8vh;
