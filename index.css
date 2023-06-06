@@ -367,7 +367,8 @@ a{
         display: block;
       }
       .nav-links {
-        position:fixed;
+        border-radius: 25px;
+        position:absolute;
         margin: 0 auto;
         right: 0;
         top: 8vh;
@@ -377,9 +378,9 @@ a{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        background: #000000e9;
+        background: #000000be;
         transform: translateX(110%);
-        transition: transform 1s ease;
+        transition: transform 0.5s ease;
         box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
         z-index: 1;
       }
